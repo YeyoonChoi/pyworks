@@ -19,4 +19,4 @@ for student in student_list:
     math = student["math"]
     total = kor + eng + math
     average = total / (len(student) - 1)
-    print(f"{name}\t{kor}\t{eng}\t{math}\t{average:.2f}")
+    print(f"{name}\t{kor}\t{eng}\t{math}\t{average:.2f}") #.2f : 소수점 둘째자리
