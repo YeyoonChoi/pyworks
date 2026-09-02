@@ -9,7 +9,7 @@ url = "https://www.seoul.go.kr/main/index.jsp"
 response = requests.get(url)
 # print(response.text)
 
-# 3. BeautifulSoup으로 html 다루기
+# 3. BeautifulSoup으로 html 다루기 (파싱)
 soup = BeautifulSoup(response.text, 'html.parser')
 print(soup.title) # title 태그 가져옴
 print(soup.title.text) # 동행·매력 특별시 서울 | 서울특별시
